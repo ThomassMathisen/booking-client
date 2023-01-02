@@ -1,7 +1,12 @@
+import Navbar from "../../components/navbar/Navbar";
 import "./hotel.css";
 
 const Hotel = () => {
-  return <div>Hotel</div>;
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 };
 
 export default Hotel;
